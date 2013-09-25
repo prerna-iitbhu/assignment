@@ -1,8 +1,8 @@
 fs    = require 'fs'
 path  = require 'path'
 spawn = require('child_process').exec
-hamlc = require('haml-coffee')
-compass = require('compass')
+#hamlc = require('haml-coffee')
+#compass = require('compass')
 
 ROOT_PATH           = __dirname
 COFFEESCRIPTS_PATH  = path.join(ROOT_PATH, '\\src')
